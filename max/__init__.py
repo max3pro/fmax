@@ -1,6 +1,7 @@
 import os
 import zipfile
 import pathlib
+import subprocess
 from core.commands import _fs_implements
 from fman import DirectoryPaneCommand, show_alert, show_prompt, _get_app_ctxt, \
 	load_json
@@ -117,3 +118,11 @@ class MaxOpenIfDirectory(DirectoryPaneCommand):
 				return scheme
 	def is_visible(self):
 		return False
+
+
+class MaxQuicklook(DirectoryPaneCommand):
+	def __call__(self):
+		chosen_files = self.get_chosen_files()
+		if chosen_files:
+			ql_path = os.getenv('LOCALAPPDATA') + "/Programs/QuickLook/QuickLook.exe"
+			subprocess.run([ql_path, as_human_readable(chosen_files[0])])
