@@ -1,4 +1,4 @@
-Plugin for [fman](https://github.com/fman-users/fman).
+Plugin for cool file manager [fman](https://github.com/fman-users/fman).
 
 Based on plugins:
 1. [ArrowNavigation](https://github.com/mherrmann/ArrowNavigation)
