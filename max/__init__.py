@@ -37,8 +37,6 @@ def get_fs_scheme(pane):
 
 
 class MaxCreateFile(DirectoryPaneCommand):
-	aliases = ('New file', 'Create file')
-
 	def __call__(self):
 		file_under_cursor = self.pane.get_file_under_cursor()
 		if file_under_cursor:
