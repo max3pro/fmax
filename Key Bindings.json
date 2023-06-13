@@ -1,0 +1,10 @@
+[
+	{ "keys": ["Shift+u"], "command": "max_un_zip_selected" },
+	
+	{ "keys": ["Ctrl+F7"], "command": "max_create_file" },
+
+	{ "keys": ["Left"], "command": "max_go_up" },
+	{ "keys": ["Right"], "command": "max_open_if_directory" },
+
+	{ "keys": ["Shift+R"], "command": "reload_plugins" }
+]

@@ -1,0 +1,6 @@
+[
+    { "caption": "-", "id": "archive" },
+    { "caption": "Extract", "command": "max_un_zip_selected" },
+    { "caption": "-", "id": "new" },
+    { "caption": "New file", "command": "max_create_file" }
+]
