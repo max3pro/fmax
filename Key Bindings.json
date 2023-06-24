@@ -6,7 +6,7 @@
 	{ "keys": ["Left"], "command": "max_go_up" },
 	{ "keys": ["Right"], "command": "max_open_if_directory" },
 
-	{ "keys": ["F3"], "command": "max_quicklook" },
+	{ "keys": ["F3"], "command": "open_with_editor" },
 
 	{ "keys": ["Shift+R"], "command": "reload_plugins" }
 ]
